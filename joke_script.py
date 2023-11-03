@@ -9,5 +9,4 @@ def tell_a_joke():
     ]
     return random.choice(jokes)
 
-if __name__ == "__main__":
-    print(tell_a_joke())
+print(tell_a_joke());
